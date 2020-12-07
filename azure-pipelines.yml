@@ -5,7 +5,8 @@
 
 trigger:
 - main
-
+jobs:
+  - job: Android
 pool:
   vmImage: 'ubuntu-latest'
 
